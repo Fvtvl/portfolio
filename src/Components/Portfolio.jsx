@@ -22,6 +22,7 @@ const Portfolio = () => {
         {
             id: 2,
             src: reactPokes,
+            link: 'https://beamish-stroopwafel-97a890.netlify.app/',
             code: 'https://github.com/Fvtvl/react-pokes',
         },
         // {
@@ -38,6 +39,7 @@ const Portfolio = () => {
             id: 5,
             src: reactBattle,
             code: 'https://github.com/Fvtvl/react-pokes',
+            link: 'https://beamish-stroopwafel-97a890.netlify.app/battle',
         },
         // {
         //     id: 6,
