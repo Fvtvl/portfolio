@@ -10,7 +10,7 @@ const Home = () => {
          className='h-screen w-full bg-gradient-to-b from-black 
          via-black to-gray-800 text-white'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
-            <div className='flex flex-col justify-center h-full'>
+            <div className='flex flex-col justify-center h-full mt-16 sm:mt-0'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>I'm a Front End Developer</h2>
                 <p className='text-gray-500 py-4 max-w-md'>Happy to introduce myself as a beginner in Front End development. Without commercial experience, but with solid knowledge of HTML, CSS, JS and React. Ready to absorb new information and grow.</p>
                 <div>
