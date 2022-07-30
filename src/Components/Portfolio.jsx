@@ -1,10 +1,8 @@
 import React from 'react';
 import webstudio from '../assets/portfolio/webstudio.jpg';
-import usestate from '../assets/portfolio/usestate.jpg';
-import navbar from '../assets/portfolio/navbar.jpg';
 import fetch from '../assets/portfolio/pokes-api.jpg';
-import reactPokes from '../assets/portfolio/react-pokes-api.jpg';
-import reactBattle from '../assets/portfolio/pokes-battle.jpg';
+import reactPokes from '../assets/portfolio/ReactPokes.jpg';
+import reactBattle from '../assets/portfolio/ReactBattle.jpg';
 
 const Portfolio = () => {
 
@@ -25,26 +23,18 @@ const Portfolio = () => {
             link: 'https://beamish-stroopwafel-97a890.netlify.app/',
             code: 'https://github.com/Fvtvl/react-pokes',
         },
-        // {
-        //     id: 3,
-        //     src: navbar,
-        // },
         {
-            id: 4,
+            id: 3,
             src: fetch,
             link: 'https://fvtvl.github.io/pokes-api/',
             code: 'https://github.com/Fvtvl/pokes-api',
         },
         {
-            id: 5,
+            id: 4,
             src: reactBattle,
             code: 'https://github.com/Fvtvl/react-pokes',
             link: 'https://beamish-stroopwafel-97a890.netlify.app/battle',
         },
-        // {
-        //     id: 6,
-        //     src: usestate,
-        // },
     ];
 
   return (
