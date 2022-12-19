@@ -12,7 +12,7 @@ const SocialLinks = () => {
             child: (
                 <>LinkedIn <FaLinkedin size={30}/></>
             ),
-            href: 'https://www.linkedin.com/in/eduard-haponov-6aa080246/',
+            href: 'https://www.linkedin.com/in/fvtvlnight/',
             style: 'rounded-tr-md'
         },
         {
@@ -34,7 +34,7 @@ const SocialLinks = () => {
             child: (
                 <>Resume <BsFillPersonLinesFill size={30}/></>
             ),
-            href: '/EduardHaponov.pdf',
+            href: '/Eduard_Haponov_CV (React).pdf',
             style: 'rounded-br-md',
             download: true,
         }

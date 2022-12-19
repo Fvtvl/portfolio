@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from 'react-scroll';
 
+
 const NavBar = () => {
     const [nav, setNav] = useState(false);
 
@@ -54,10 +55,9 @@ const NavBar = () => {
             <Link onClick={()=> setNav(!nav)} to={link} smooth duration={500}>{link}</Link>
         </li>
         ))}
-        </ul>)}
-
-        
+        </ul>)}         
     </div>
+
   )
 }
 
