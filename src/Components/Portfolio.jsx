@@ -57,7 +57,7 @@ const Portfolio = React.memo(() => {
         id: 7,
         src: movie,
         code: 'https://github.com/Fvtvl/react-movie-db',
-        link: 'fvtvl-movie-db.netlify.app',
+        link: 'https://fvtvl-movie-db.netlify.app',
       },
     ];
   }, []);
