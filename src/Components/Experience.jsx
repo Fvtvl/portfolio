@@ -7,6 +7,7 @@ import github from '../assets/github.png';
 import tailwind from '../assets/tailwind.png';
 import mui from '../assets/mui.png';
 import styled from '../assets/styled.png';
+import graphql from '../assets/graphql.png';
 import { useMemo } from 'react';
 
 const Experience = React.memo(() => {
@@ -48,17 +49,23 @@ const Experience = React.memo(() => {
         title: 'Tailwind',
         style: 'shadow-sky-400',
       },
-      // {
-      //   id: 7,
-      //   src: styled,
-      //   // title: 'styled components',
-      //   style: 'shadow-blue-500',
-      // },
+      {
+        id: 7,
+        src: styled,
+        title: 'Styled components',
+        style: 'shadow-purple-500',
+      },
       {
         id: 8,
         src: mui,
         title: 'Mui',
         style: 'shadow-blue-500',
+      },
+      {
+        id: 9,
+        src: graphql,
+        title: 'GraphQL',
+        style: 'shadow-pink-500',
       },
     ];
   }, []);
@@ -66,7 +73,7 @@ const Experience = React.memo(() => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen pt-4"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-white">
         <div>
@@ -84,7 +91,12 @@ const Experience = React.memo(() => {
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt={title} className="w-20 mx-auto" />
+              <img
+                src={src}
+                alt={title}
+                width="100%"
+                className="w-20 mx-auto"
+              />
               <p className="mt-4">{title}</p>
             </div>
           ))}

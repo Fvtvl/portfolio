@@ -4,6 +4,9 @@ import fetch from '../assets/portfolio/pokes-api.jpg';
 import reactPokes from '../assets/portfolio/ReactPokes.jpg';
 import reactBattle from '../assets/portfolio/ReactBattle.jpg';
 import reactWeather from '../assets/portfolio/weather-app.jpg';
+import ecomm from '../assets/portfolio/ecomm.jpg';
+import movie from '../assets/portfolio/movie-db.jpg';
+
 import { useMemo } from 'react';
 import { useCallback } from 'react';
 
@@ -44,13 +47,25 @@ const Portfolio = React.memo(() => {
         code: 'https://github.com/Fvtvl/react-weather-app',
         link: 'https://fvtvl-weather-app.netlify.app/',
       },
+      {
+        id: 6,
+        src: ecomm,
+        code: 'https://github.com/Fvtvl/react-ecomm-mui',
+        link: 'https://fvtvl-sports-wear.netlify.app/',
+      },
+      {
+        id: 7,
+        src: movie,
+        code: 'https://github.com/Fvtvl/react-movie-db',
+        link: 'fvtvl-movie-db.netlify.app',
+      },
     ];
   }, []);
 
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen pb-24"
     >
       <div className="max-w-screen-lg p-4 pt-16 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-2">
