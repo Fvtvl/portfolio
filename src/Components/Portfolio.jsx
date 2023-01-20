@@ -65,7 +65,7 @@ const Portfolio = React.memo(() => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen pb-24"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen md:pb-32"
     >
       <div className="max-w-screen-lg p-4 pt-16 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-2">

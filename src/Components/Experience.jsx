@@ -73,7 +73,7 @@ const Experience = React.memo(() => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen pt-4"
+      className="bg-gradient-to-b from-gray-800 to-black w-full md:h-screen pt-4"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-white">
         <div>
