@@ -1,7 +1,7 @@
 import React from 'react';
 import webstudio from '../assets/portfolio/webstudio.jpg';
 import fetch from '../assets/portfolio/pokes-api.jpg';
-import reactPokes from '../assets/portfolio/ReactPokes.jpg';
+import fvtvlShop from '../assets/portfolio/fvtvl-shop.jpg';
 import reactBattle from '../assets/portfolio/ReactBattle.jpg';
 import reactWeather from '../assets/portfolio/weather-app.jpg';
 import ecomm from '../assets/portfolio/ecomm.jpg';
@@ -22,12 +22,6 @@ const Portfolio = React.memo(() => {
         src: webstudio,
         link: 'https://fvtvl.github.io/webstudio/',
         code: 'https://github.com/Fvtvl/webstudio',
-      },
-      {
-        id: 2,
-        src: reactPokes,
-        link: 'https://beamish-stroopwafel-97a890.netlify.app/',
-        code: 'https://github.com/Fvtvl/react-pokes',
       },
       {
         id: 3,
@@ -58,6 +52,12 @@ const Portfolio = React.memo(() => {
         src: movie,
         code: 'https://github.com/Fvtvl/react-movie-db',
         link: 'https://fvtvl-movie-db.netlify.app',
+      },
+      {
+        id: 8,
+        src: fvtvlShop,
+        code: 'https://github.com/Fvtvl/fullstack-react-mui-ecomm',
+        link: 'https://fvtvl-shop.netlify.app/',
       },
     ];
   }, []);

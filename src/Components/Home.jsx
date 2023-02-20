@@ -16,8 +16,7 @@ const Home = React.memo(() => {
             I'm a Frontend Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am really passionate about working with React.js, using JavaScript
-            libraries like Axios, Webpack, Babel, and others.
+            I am really passionate about working with React.js.
             <p>
               Self-study and the ability to Google is the best way for me to
               solve any problem.
