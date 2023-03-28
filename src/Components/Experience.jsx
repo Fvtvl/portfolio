@@ -7,7 +7,7 @@ import github from '../assets/github.png';
 import tailwind from '../assets/tailwind.png';
 import mui from '../assets/mui.png';
 import styled from '../assets/styled.png';
-import graphql from '../assets/graphql.png';
+import node from '../assets/node.png';
 import { useMemo } from 'react';
 
 const Experience = React.memo(() => {
@@ -34,8 +34,14 @@ const Experience = React.memo(() => {
       {
         id: 4,
         src: reactImage,
-        title: 'React',
+        title: 'React.js',
         style: 'shadow-blue-600',
+      },
+      {
+        id: 10,
+        src: node,
+        title: 'Node.js',
+        style: 'shadow-green-600',
       },
       {
         id: 5,
@@ -61,12 +67,12 @@ const Experience = React.memo(() => {
         title: 'Mui',
         style: 'shadow-blue-500',
       },
-      {
-        id: 9,
-        src: graphql,
-        title: 'GraphQL',
-        style: 'shadow-pink-500',
-      },
+      // {
+      //   id: 9,
+      //   src: graphql,
+      //   title: 'GraphQL',
+      //   style: 'shadow-pink-500',
+      // },
     ];
   }, []);
 
@@ -79,9 +85,6 @@ const Experience = React.memo(() => {
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience
-          </p>
-          <p className="hidden sm:block py-6">
-            These are the technologies I've worked with
           </p>
         </div>
 

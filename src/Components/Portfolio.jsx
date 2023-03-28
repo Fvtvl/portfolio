@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useMemo, useCallback } from 'react';
+//Image
 import webstudio from '../assets/portfolio/webstudio.jpg';
 import fetch from '../assets/portfolio/pokes-api.jpg';
 import fvtvlShop from '../assets/portfolio/fvtvl-shop.jpg';
@@ -6,9 +7,7 @@ import reactBattle from '../assets/portfolio/ReactBattle.jpg';
 import reactWeather from '../assets/portfolio/weather-app.jpg';
 import ecomm from '../assets/portfolio/ecomm.jpg';
 import movie from '../assets/portfolio/movie-db.jpg';
-
-import { useMemo } from 'react';
-import { useCallback } from 'react';
+import social from '../assets/portfolio/social.jpg';
 
 const Portfolio = React.memo(() => {
   const openInNewTab = useCallback((url) => {
@@ -59,13 +58,21 @@ const Portfolio = React.memo(() => {
         code: 'https://github.com/Fvtvl/fullstack-react-mui-ecomm',
         link: 'https://fvtvl-shop.netlify.app/',
       },
+      {
+        id: 9,
+        src: social,
+        code: 'https://github.com/Fvtvl/react-firebase-social-media',
+        backend:
+          'https://github.com/Fvtvl/react-firebase-social-media-functions',
+        link: 'https://fvtvl-socialmedia.netlify.app',
+      },
     ];
   }, []);
 
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen md:pb-32"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen h-screen"
     >
       <div className="max-w-screen-lg p-4 pt-16 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-2">
@@ -75,8 +82,8 @@ const Portfolio = React.memo(() => {
           <p className="py-6">Check out of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, link, code }) => (
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-8 sm:px-0">
+          {portfolios.map(({ id, src, link, code, backend }) => (
             <div key={id} className="shadow-md shadow-gray-600  rounded-lg">
               <img
                 src={src}
@@ -86,16 +93,24 @@ const Portfolio = React.memo(() => {
               <div className="flex items-center justify-center">
                 <button
                   onClick={() => openInNewTab(link)}
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105"
                 >
                   Demo
                 </button>
                 <button
                   onClick={() => openInNewTab(code)}
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105"
                 >
                   Code
                 </button>
+                {backend ? (
+                  <button
+                    onClick={() => openInNewTab(backend)}
+                    className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105"
+                  >
+                    Backend
+                  </button>
+                ) : null}
               </div>
             </div>
           ))}
