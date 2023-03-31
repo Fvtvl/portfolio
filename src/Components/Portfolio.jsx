@@ -72,7 +72,7 @@ const Portfolio = React.memo(() => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white"
     >
       <div className="max-w-screen-lg p-4 pt-16 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-2">
@@ -93,20 +93,20 @@ const Portfolio = React.memo(() => {
               <div className="flex items-center justify-center">
                 <button
                   onClick={() => openInNewTab(link)}
-                  className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105"
+                  className="w-1/3 px-6 py-1 my-4 duration-200 hover:scale-105"
                 >
                   Demo
                 </button>
                 <button
                   onClick={() => openInNewTab(code)}
-                  className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105"
+                  className="w-1/3 px-6 py-1 my-4 duration-200 hover:scale-105"
                 >
                   Code
                 </button>
                 {backend ? (
                   <button
                     onClick={() => openInNewTab(backend)}
-                    className="w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105"
+                    className="w-1/3 px-6 py-1 my-4 duration-200 hover:scale-105"
                   >
                     Backend
                   </button>
