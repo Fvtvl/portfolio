@@ -13,14 +13,14 @@ const Home = React.memo(() => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full mt-16  sm:mt-0">
           <h2 className="text-4xl sm:text-7xl sm:mt-20 font-bold text-white ">
-            I'm a Frontend Developer
+          I'm a Software Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am really passionate about working with React.js.
-            <p>
-              Self-study and the ability to Google is the best way for me to
-              solve any problem.
-            </p>
+          I am passionate about creating efficient software solutions, 
+          with a particular focus on React.js and Robotic Process Automation (RPA). 
+          <p>My background combines software development and business management, allowing me to bring a problem-solving mindset to every project. 
+            I am constantly exploring new technologies and best practices to deliver high-quality results.
+          </p>
           </p>
           <div>
             <Link
@@ -50,3 +50,4 @@ const Home = React.memo(() => {
 });
 
 export default Home;
+

@@ -26,7 +26,7 @@ const ContactLinks = React.memo(() => {
       {
         id: 4,
         child: <BsFillPersonLinesFill size={25} />,
-        href: '/Eduard_Haponov_CV (React).pdf',
+        href: '/EduardHaponov CV-SD.pdf',
         style: 'rounded-br-md',
         download: true,
       },

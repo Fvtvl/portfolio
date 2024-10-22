@@ -14,21 +14,18 @@ const About = React.memo(() => {
         </div>
 
         <p className="text-xl mt-2 sm:mt-20">
-          Hello, my name is Eduard and I am a Ukrainian entrepreneur turned
-          self-taught coder. For the past three years, I successfully operated a
-          grocery store with an annual turnover of $240,000 in the Kyiv region.
-          However, due to the Russian invasion and occupation of Irpin, I lost
-          my business and decided to pursue a new career path in coding. I am
-          highly motivated and dedicated to applying my skills and knowledge to
-          this field.
-        </p>
+        Hi, I'm Eduard Haponov, a dedicated Software Developer currently based in Wexford, Ireland. 
+        Over the past two years, I have focused on building my expertise in software development, specifically in React.js and Robotic Process Automation (RPA). 
+        My passion for creating impactful software solutions drives me to constantly learn and apply new technologies.
+<p>     During my time in Ireland, I have successfully completed a series of projects, including automation solutions for businesses and web applications that leverage modern front-end frameworks. My work in RPA has led to the development of bots that optimize business processes, significantly improving operational efficiency.
+        I am committed to advancing my career in software development, with a focus on combining web development and automation to contribute to the success and growth of the companies I work with.
+</p>        </p>
 
         <br />
 
         <p className="text-xl">
-          I have recently completed several coding projects, which you can find
-          detailed information about below. I am committed to growing my coding
-          abilities and building a successful career in this exciting field.
+        In the past two years, I have developed a range of projects, from web applications to advanced automation solutions. 
+        My expertise lies in React.js, Node.js, and RPA tools like UiPath and Blue Prism, which you can explore in more detail below.
         </p>
       </div>
     </div>
