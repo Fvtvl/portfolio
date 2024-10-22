@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: '/EDUARD_HAPONOV_CV.pdf',
+      href: '/EduardHaponov CV-SD.pdf',
       style: 'rounded-br-md',
       download: true,
     },

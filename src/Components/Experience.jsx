@@ -1,6 +1,6 @@
 import React from 'react';
-import html from '../assets/html.png';
-import css from '../assets/css.png';
+import uipath from '../assets/uipath.png';
+import blueprism from '../assets/blueprism.png';
 import javascript from '../assets/javascript.png';
 import reactImage from '../assets/reactImage.png';
 import github from '../assets/github.png';
@@ -15,14 +15,14 @@ const Experience = React.memo(() => {
     return [
       {
         id: 1,
-        src: html,
-        title: 'HTML',
+        src: uipath,
+        title: 'UiPath',
         style: 'shadow-orange-500',
       },
       {
         id: 2,
-        src: css,
-        title: 'CSS',
+        src: blueprism,
+        title: 'BluePrism',
         style: 'shadow-blue-500',
       },
       {
